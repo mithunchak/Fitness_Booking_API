@@ -97,7 +97,9 @@ The FastAPI server will be available at http://localhost:8000.
 FastAPI Features Available:
 
 📋 Interactive API Documentation: http://localhost:8000/docs (Swagger UI)
+
 📚 Alternative Documentation: http://localhost:8000/redoc (ReDoc)
+
 🔧 OpenAPI Schema: http://localhost:8000/openapi.json
 
 ![image](https://github.com/user-attachments/assets/5cbb2fc5-a663-4797-a75b-10ba9fa7396c)

@@ -1,5 +1,4 @@
 # Fitness_Booking_API
-# Fitness Booking API
 
 A comprehensive fitness booking system API built with Python that allows users to manage fitness classes, bookings, and schedules.
 

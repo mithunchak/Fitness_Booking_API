@@ -120,40 +120,8 @@ The demo will automatically connect to the running API server and demonstrate al
 - 🧪 **Edge Case Testing** - Comprehensive validation and security testing
 
 **Expected Demo Output:**
-```
-🚀 COMPREHENSIVE FITNESS BOOKING API DEMO
-🔧 Testing All Requirements & Edge Cases
-======================================================================
-✅ API Health Check: healthy
-   Timestamp: 2025-06-16T17:28:53.182787+00:00
-   Message: Fitness Booking API is running
 
-📋 Testing Fitness Class Creation
-✅ [1] Created: Morning Yoga Flow
-✅ [2] Created: Evening HIIT Training
-
-🧪 Testing Invalid Class Creation Scenarios:
-✅ [1] Correctly rejected: Empty class name
-✅ [2] Correctly rejected: Past date/time
-✅ [3] Correctly rejected: Invalid slot count
-
-📋 Testing Booking Functionality
-✅ [1] Booking confirmed: Mithun Kumar
-✅ [2] Booking confirmed: Priya Patel
-
-🔄 Testing Error Handling & Edge Cases:
-✅ Duplicate booking correctly prevented
-✅ Invalid class ID correctly handled
-✅ Overbooking prevention working correctly
-
-🎯 📊 COMPREHENSIVE TEST REPORT
-============================================================
-🎯 API Functionality Tests: ✅ ALL PASSED
-🛡️ Error Handling Tests: ✅ ALL PASSED  
-🔒 Security & Validation Tests: ✅ ALL PASSED
-🌍 Timezone Features: ✅ ALL PASSED
-📈 Performance & Edge Cases: ✅ ALL PASSED
-```
+https://github.com/user-attachments/assets/4a1ab509-ca2b-48b2-a673-21641a6413c0
 
 ## Demo Features
 
@@ -202,21 +170,6 @@ The demo will test the following endpoints:
 - `GET /bookings` - Get user bookings
 - `GET /health` - API health check
 
-## Testing
-
-### Run Unit Tests
-
-```bash
-# In the demo environment
-python -m pytest tests/
-```
-
-### Run Integration Tests
-
-```bash
-# In the demo environment
-python -m pytest tests/integration/
-```
 
 ### Manual Testing with Demo
 
@@ -296,6 +249,3 @@ Fitness_Booking_API/
 4. Run the demo to ensure functionality
 5. Submit a pull request
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.

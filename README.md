@@ -1,6 +1,14 @@
 # Fitness_Booking_API
 
-A comprehensive fitness booking system API built with Python that allows users to manage fitness classes, bookings, and schedules.
+A comprehensive fitness booking system API built with FastAPI, SQLite, and SQLAlchemy ORM that allows users to manage fitness classes, bookings, and schedules with advanced features like timezone intelligence and smart booking management.
+
+Technologies Used
+
+FastAPI - Modern, fast web framework for building APIs
+SQLite - Lightweight, serverless database engine
+SQLAlchemy ORM - Python SQL toolkit and Object-Relational Mapping
+Pydantic - Data validation using Python type annotations
+Uvicorn - ASGI web server implementation
 
 ## Prerequisites
 
@@ -80,8 +88,13 @@ source fitness_api_env/bin/activate
 ```bash
 python main.py
 ```
+The FastAPI server will be available at http://localhost:8000.
 
-The API will be available at `http://localhost:8000`.
+FastAPI Features Available:
+
+📋 Interactive API Documentation: http://localhost:8000/docs (Swagger UI)
+📚 Alternative Documentation: http://localhost:8000/redoc (ReDoc)
+🔧 OpenAPI Schema: http://localhost:8000/openapi.json
 
 ![image](https://github.com/user-attachments/assets/5cbb2fc5-a663-4797-a75b-10ba9fa7396c)
 

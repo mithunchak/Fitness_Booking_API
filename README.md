@@ -79,8 +79,6 @@ source fitness_api_env/bin/activate
 
 2. Start the API server:
 ```bash
-python app.py
-# or
 python main.py
 ```
 

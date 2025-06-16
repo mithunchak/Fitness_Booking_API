@@ -86,6 +86,9 @@ python main.py
 
 The API will be available at `http://localhost:8000`.
 
+![image](https://github.com/user-attachments/assets/5cbb2fc5-a663-4797-a75b-10ba9fa7396c)
+
+
 ### Run the Demo
 
 **Important:** Make sure the API server is running on `http://localhost:8000` before running the demo.

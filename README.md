@@ -25,7 +25,7 @@ Uvicorn - ASGI web server implementation
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Fitness_Booking_API.git
+git clone https://github.com/mithunchak/Fitness_Booking_API.git
 cd Fitness_Booking_API
 ```
 

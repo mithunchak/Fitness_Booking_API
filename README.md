@@ -227,16 +227,22 @@ If you encounter issues:
 
 ```
 Fitness_Booking_API/
-├── app.py                 # Main API application
-├── demo.py               # Demo script with API testing
-├── requirements.txt      # Project dependencies
-├── config.py            # Configuration settings
-├── models/              # Data models
-├── routes/              # API route handlers
-├── tests/               # Test files
+├── __pycache__/           # Python cache files
+├── .pytest_cache/         # Pytest cache files  
+├── database.py           # Database configuration and models
+├── demo.py              # Demo script with comprehensive API testing
+├── fitness_api.log      # API logging file
+├── fitness_booking.db   # SQLite database file
+├── fitness_booking.sqlpro # Database backup/export
+├── main.py              # Main API application server
+├── models.py            # Pydantic data models and schemas
+├── README.md            # Project documentation
+├── requirements.txt     # Python dependencies
+├── schemas.py           # API request/response schemas
+├── test_api.py          # API unit tests
 ├── fitness_api_env/     # API virtual environment
 ├── fitness_demo_env/    # Demo virtual environment
-└── README.md           # This file
+└── .gitignore           # Git ignore file
 ```
 
 ## Contributing

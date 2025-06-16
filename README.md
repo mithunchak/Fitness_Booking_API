@@ -5,9 +5,13 @@ A comprehensive fitness booking system API built with FastAPI, SQLite, and SQLAl
 Technologies Used
 
 FastAPI - Modern, fast web framework for building APIs
+
 SQLite - Lightweight, serverless database engine
+
 SQLAlchemy ORM - Python SQL toolkit and Object-Relational Mapping
+
 Pydantic - Data validation using Python type annotations
+
 Uvicorn - ASGI web server implementation
 
 ## Prerequisites
